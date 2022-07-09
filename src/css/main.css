@@ -18,6 +18,12 @@ body {
   height: 100%;
 }
 
+body {
+  background: url("../assets/img/top-image.svg") no-repeat top,
+    url("../assets/img/bottom-image.svg") no-repeat bottom;
+  background-size: contain;
+}
+
 button {
   cursor: pointer;
 }
